@@ -23,11 +23,28 @@
         app:layout_constraintTop_toTopOf="parent"
 
         >
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_male"
+                app:tint="@color/white"
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/male"
+                android:textAllCaps="true"
+                android:textColor="@color/title_text"></TextView>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -44,6 +61,27 @@
         app:layout_constraintTop_toTopOf="parent"
 
         >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:tint="@color/white"
+                android:src="@drawable/ic_famele"
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/famele"
+                android:textColor="@color/title_text"
+                android:textAllCaps="true"
+                android:layout_marginTop="8dp"
+                ></TextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.cardview.widget.CardView>
 

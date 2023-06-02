@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Karlota Android</string>
+    <string name="male">Hombre</string>
+    <string name="famele">Mujer</string>
 </resources>
