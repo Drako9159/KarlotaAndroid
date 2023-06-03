@@ -32,6 +32,14 @@
         android:layout_marginHorizontal="16dp"
         />
 
+    <Button
+        android:id="@+id/btnSuperhero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Super Hero"
+        android:layout_marginHorizontal="16dp"
+        />
+
 
 
 </LinearLayout>
