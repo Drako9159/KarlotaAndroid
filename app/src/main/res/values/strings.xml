@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Karlota Android</string>
+
+    <!-- IMC APP -->
     <string name="male">Hombre</string>
     <string name="female">Mujer</string>
     <string name="height">Altura</string>
@@ -21,4 +23,15 @@
 
     <string name="title_obesidad_peso">Obesidad</string>
     <string name="description_obesidad_peso">Está muy por encima de lo óptimo para tu peso y altura</string>
+
+    <!-- TODOApp -->
+    <string name="todo_title">Bienvenido</string>
+    <string name="todo_category">Categoria</string>
+    <string name="todo_tasks">Tareas</string>
+    <string name="todo_dialog_add_task">Añade la tarea</string>
+    <string name="todo_dialog_category_business">Negocios</string>
+    <string name="todo_dialog_category_personal">Personal</string>
+    <string name="todo_dialog_category_other">Otros</string>
+    <string name="todo_dialog_add_tas_buttonk">Crear tarea</string>
+
 </resources>

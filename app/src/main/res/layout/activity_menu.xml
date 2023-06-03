@@ -24,6 +24,14 @@
         android:layout_marginHorizontal="16dp"
         />
 
+    <Button
+        android:id="@+id/btnTODO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TODO App"
+        android:layout_marginHorizontal="16dp"
+        />
+
 
 
 </LinearLayout>
