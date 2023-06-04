@@ -45,4 +45,7 @@
     <color name="superhero_stat_power">#FFEB3B</color>
     <color name="superhero_stat_combat">#F44336</color>
 
+    <!-- Settings -->
+    <color name="settings_text_title">#000000</color>
+
 </resources>
