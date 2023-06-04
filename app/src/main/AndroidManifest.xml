@@ -15,7 +15,7 @@
         android:theme="@style/Theme.KarlotaAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".settings.SettignsActivity"
+            android:name=".settings.SettingsActivity"
             android:exported="false" />
         <activity
             android:name=".superheroapp.DetailSuperheroActivity"
