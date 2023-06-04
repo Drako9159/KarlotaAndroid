@@ -7,4 +7,10 @@ import retrofit2.http.Path
 interface ApiService {
     @GET("/api/1917026071983716/search/{name}")
     suspend fun getSuperheroes(@Path("name") superheroName: String): Response<SuperHeroDataResponse>
+
+    @GET("/api/1917026071983716/{id}")
+    suspend fun getSuperheroDetail(@Path("id") superheroId: String): Response<SuperHeroDetailResponse>
+
+
+
 }
