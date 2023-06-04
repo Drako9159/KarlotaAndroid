@@ -59,8 +59,9 @@ class SuperHeroListActivity : AppCompatActivity() {
 
         CoroutineScope(Dispatchers.IO).launch {
             val myResponse: Response<SuperHeroDataResponse> = retrofit.create(ApiService::class.java).getSuperheroes(query)
-            Log.i("karlota 1", myResponse.toString())
-            if(myResponse.isSuccessful){
+            Log.i("karlota 1", myResponse.body()!!.response)
+
+            if(myResponse.isSuccessful && myResponse.body()!!.response != "error"){
                 val response: SuperHeroDataResponse? = myResponse.body()
                 if(response != null){
                     Log.i("karlota", response.toString())
